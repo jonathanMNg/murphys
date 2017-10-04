@@ -1,0 +1,17 @@
+.ui.topmenu {
+  border: none;
+  box-shadow: none;
+}
+.ui.background {
+  background: url('http://murphyshawaii.com/media/2014/04/murphys-front.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 500px;
+  color: white;
+}
+.logo.column {
+  padding: 150px;
+}
+.ui.footer {
+  background-color: #004030;
+  color: white;
+}

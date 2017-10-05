@@ -2,16 +2,31 @@
   border: none;
   box-shadow: none;
 }
-.ui.background {
-  background: url('http://murphyshawaii.com/media/2014/04/murphys-front.jpg') no-repeat center center fixed;
+.body {
+  background: url('http://murphyshawaii.com/media/2014/04/murphys-front.jpg') no-repeat fixed;
   background-size: cover;
   height: 500px;
+}
+.two.ui.column {
+  align-items: center;
+  height: 500px;
+}
+.logo{
+  padding: 0px 100px;
+}
+body {
   color: white;
 }
-.logo.column {
-  padding: 150px;
-}
-.ui.footer {
-  background-color: #004030;
+.text {
+  font-size: 17px;
+  font-weight: bold;
+  width: 500px;
   color: white;
+}
+.footer {
+  background: #004030;
+  height: 150px;
+}
+.ui.divider {
+  background-color: white;
 }
